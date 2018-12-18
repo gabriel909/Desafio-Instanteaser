@@ -1,0 +1,189 @@
+@font-face {
+    font-family: fontAwesome;
+    src: url(FontAwesome.otf);
+}
+
+.header {
+    background-color: #F5F6FA;
+    height: 50px;
+}
+
+.big-title {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: fontAwesome;
+    float: left;
+}
+
+.little-title {
+    font-family: fontAwesome;
+    color: #B5B5B5;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.save-button {
+    border: solid 2px #8A44ED;
+    color: #8A44ED;
+    height: 30px;
+    width: 80px;
+    padding: 2px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-size: 11px;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    display: inherit;
+    font-family: fontAwesome;
+    float: right;
+}
+
+.left-column {
+    background-color: white;
+    float: left;
+    width: 46%;
+    padding: 10px 10px;
+    margin: 15px 15px auto;
+    /* border: solid 2px black; */
+}
+
+.project-name {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: fontAwesome;
+}
+
+.project-sub {
+    float: left;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-family: fontAwesome;
+    line-height: 1.8;
+}
+
+.span-sub {
+    color: #8A44ED; 
+    float: right;
+}
+
+.stars {
+    float: right;
+    font-size: 15px;
+    color: #B5B5B5;
+}
+
+.john-doe {
+    height: 10px;
+    width: 55px;
+    padding: 2px;
+    border-radius: 25px;
+    margin-left: 15px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    background: #8A44ED;
+    cursor: pointer;
+    display: inherit;
+    font-family: fontAwesome;
+}
+
+.right-column {
+    background-color: white;
+    float: left;
+    width: 46%;
+    padding: 10px 10px;
+    margin: 15px 15px auto;
+    /* border: solid 2px black; */
+}
+
+.feedback-area {
+    resize: none;
+    width: 95%;
+    height: 300px;
+    border-radius: 10px;
+    border: #B5B5B5 1px solid;
+    margin: 10px 15px auto;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-color: #B5B5B5;
+}
+
+.green-btn {
+    float: left;
+    background-color: #3EBDA4;
+    margin: 0px 5px auto;
+    width: 100px;
+    height: 40px;
+    font-family: fontAwesome;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.white-btn {
+    float: left;
+    background-color: white;
+    margin: 0px 5px auto;
+    width: 100px;
+    height: 40px;
+    font-family: fontAwesome;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+}
+
+.img-uploader {
+    border: dotted 2px #8A44ED;
+    font-family: fontAwesome;
+    width: 95%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 15px auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+
+.img-uploader-hidden {
+	text-align: right;
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    margin-top: 0px;
+    z-index:10;
+    opacity:0
+}
+
+.bg {
+    background-color: #F5F6FA;
+    width: 100%;
+    height: 1920px;
+    position: relative;
+}
+
+.botao-send {
+    background-color: #8A44ED;
+    width: 97%;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: fontAwesome;
+    font-size: 20px;
+    color: white
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" href="./instanteaser.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="header">
+            <div class="big-title">Fontawesome<span class="little-title">icon font</span></div>
+            <button class="save-button">Salvar</button>
+            <div class="project-sub" style="float: right; margin-top: 15px;">Prazo de envio do feedback:   <span class="span-sub">contagem regressiva</span></div>
+        </div>
+        <div class="left-column">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/cbKmm_xAEro" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div class="project-name">Nome do projeto</div>
+            <div class="john-doe">Jane Doe</div>
+            <div class="project-sub">Enviado por: Nome do usuario</div>
+            <div class="stars">★★★★☆</div>
+        </div>
+        <div class="right-column">
+            <div class="project-name">Insira abaixo o seu feedback</div>
+            <div class="project-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <textarea class="feedback-area"></textarea>
+            <div class="project-name">Enviar novos arquivos</div>
+            <hr class="line">
+            <button id="btn1" class="green-btn" style="margin-left: 15px" onclick="buttonAction(this)">Fotos</button>
+            <button id="btn2" class="white-btn" style="width: 150px" onclick="buttonAction(this)">Trilha Sonora</button>
+            <button id="btn3" class="white-btn" onclick="buttonAction(this)">Fonte</button>
+            <button id="btn4" class="white-btn" onclick="buttonAction(this)">Outros</button>
+            <div class="img-uploader">
+                <input type="file" class="img-uploader-hidden">
+                <div class="project-name" style="margin-top: 90px; margin-left: 100px;">Drop files here or click to upload</div>
+            </div>
+            <div class="project-sub">Observacoes sobre as fotos</div>
+            <textarea class="feedback-area" style="height: 100px"></textarea>
+            <button class="botao-send">Enviar feedback</button>
+            <button class="botao-send" style="color: #8A44ED; background-color: white; border: solid 2px #8A44ED">Salvar e enviar depois</button>
+            <div class="project-sub" style="text-align: center; margin-top: 15px;">Prazo de envio do feedback:<span class="span-sub">contagem regressiva</span></div>
+        </div>
+    </div>
+</body>
+<script>
+    function buttonAction(event) {
+        document.getElementById("btn1").style.backgroundColor = "white"; 
+        document.getElementById("btn1").style.color = "black";
+
+        document.getElementById("btn2").style.backgroundColor = "white";
+        document.getElementById("btn2").style.color = "black";
+
+        document.getElementById("btn3").style.backgroundColor = "white";
+        document.getElementById("btn3").style.color = "black";
+
+        document.getElementById("btn4").style.backgroundColor = "white";
+        document.getElementById("btn4").style.color = "black";
+
+        event.style.backgroundColor = "#3EBDA4";
+        event.style.color = "white";
+    }
+</script>
+</html>
